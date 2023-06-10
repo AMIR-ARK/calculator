@@ -13,13 +13,13 @@ class Calculator
 
         while (!exit)
         {
-            Console.Write("Enter first number: ");
+            Console.Write("adad aval ra vared konid: ");
             num1 = double.Parse(Console.ReadLine());
 
-            Console.Write("Enter second number: ");
+            Console.Write("adad dovom ra vared konid: ");
             num2 = double.Parse(Console.ReadLine());
 
-            Console.Write("Enter an operator (+, -, *, /) or q to quit: ");
+            Console.Write("mohasebe khod ra entekhab konid  (+, -, *, /) ya q ra bray kharej shodan deshar dahid: ");
             op = char.Parse(Console.ReadLine());
 
             switch (op)
@@ -39,7 +39,7 @@ class Calculator
                 case '/':
                     if (num2 == 0)
                     {
-                        Console.WriteLine("Error: division by zero");
+                        Console.WriteLine("Error: taghsim bar sefr");
                     }
                     else
                     {
@@ -48,11 +48,11 @@ class Calculator
                     }
                     break;
                 case 'q':
-                    Console.WriteLine("Exiting...");
+                    Console.WriteLine("dar hal khoroj...");
                     exit = true;
                     break;
                 default:
-                    Console.WriteLine("Invalid operator!");
+                    Console.WriteLine("amaliat na morabar!");
                     break;
             }
 
