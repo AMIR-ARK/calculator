@@ -52,7 +52,7 @@ class Calculator
                     exit = true;
                     break;
                 default:
-                    Console.WriteLine("amaliat na morabar!");
+                    Console.WriteLine("amaliat na motabar!");
                     break;
             }
 
